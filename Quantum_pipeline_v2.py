@@ -119,9 +119,9 @@ def rekonstruisi_next_kombinaciju_v2(kvantni_prostor_v2):
 
 # --- Pokretanje V2 Pipeline-a ---
 if __name__ == "__main__":
-    # PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv"
-    # PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv"
-    PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv"
+    # PUTANJA_DO_BAZE = "/data/loto7_4708_k85.csv"
+    # PUTANJA_DO_BAZE = "/data/loto7_4708_k85_loto_2976.csv"
+    PUTANJA_DO_BAZE = "/data/loto7_4708_k85_loto_plus_1732.csv"
     
     print("="*70)
     print(" DSMcode QML PIPELINE v2 - EVOLUCIJA UNITARNIH OPERATORA I PREPLITANJA ")
@@ -147,14 +147,14 @@ if __name__ == "__main__":
 ======================================================================
  DSMcode QML PIPELINE v2 - EVOLUCIJA UNITARNIH OPERATORA I PREPLITANJA 
 ======================================================================
-[+] Učitavanje istorijske baze sa: /Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv
+[+] Učitavanje istorijske baze sa: /data/loto7_4708_k85.csv
 [+] Uspešno učitano 4707 istorijskih kola.
 [+] Pokrećem kaskadno preplitanje pozicija kroz vremensku evoluciju...
 [+] Generisanje unitarnih transformacija i Qiskit Statevector-a...
 [+] Pretražujem interferencijski profil talasnih funkcija (V2)...
 ======================================================================
 [+] DINAMIČKA SKRIVENA ZAVISNOST IZOLOVANA.
-[+] Jednoznačna V2 NEXT kombinacija za sledeće kolo: [8, 11, 12, 14, 25, 33, 35]
+[+] Jednoznačna V2 NEXT kombinacija za sledeće kolo: [8, x, 12, y, 25, z, 35]
 ======================================================================
 
 
@@ -166,15 +166,16 @@ if __name__ == "__main__":
 ======================================================================
  DSMcode QML PIPELINE v2 - EVOLUCIJA UNITARNIH OPERATORA I PREPLITANJA 
 ======================================================================
-[+] Učitavanje istorijske baze sa: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv
+[+] Učitavanje istorijske baze sa: /data/loto7_4708_k85_loto_2976.csv
 [+] Uspešno učitano 2975 istorijskih kola.
 [+] Pokrećem kaskadno preplitanje pozicija kroz vremensku evoluciju...
 [+] Generisanje unitarnih transformacija i Qiskit Statevector-a...
 [+] Pretražujem interferencijski profil talasnih funkcija (V2)...
 ======================================================================
 [+] DINAMIČKA SKRIVENA ZAVISNOST IZOLOVANA.
-[+] Jednoznačna V2 NEXT kombinacija za sledeće kolo: [2, 5, 7, 23, 29, 31, 37]
+[+] Jednoznačna V2 NEXT kombinacija za sledeće kolo: [2, x, 7, y, 29, z, 37]
 ======================================================================
+
 
 
 
@@ -185,14 +186,14 @@ if __name__ == "__main__":
 ======================================================================
  DSMcode QML PIPELINE v2 - EVOLUCIJA UNITARNIH OPERATORA I PREPLITANJA 
 ======================================================================
-[+] Učitavanje istorijske baze sa: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv
+[+] Učitavanje istorijske baze sa: /data/loto7_4708_k85_loto_plus_1732.csv
 [+] Uspešno učitano 1731 istorijskih kola.
 [+] Pokrećem kaskadno preplitanje pozicija kroz vremensku evoluciju...
 [+] Generisanje unitarnih transformacija i Qiskit Statevector-a...
 [+] Pretražujem interferencijski profil talasnih funkcija (V2)...
 ======================================================================
 [+] DINAMIČKA SKRIVENA ZAVISNOST IZOLOVANA.
-[+] Jednoznačna V2 NEXT kombinacija za sledeće kolo: [2, 6, 9, 16, 29, 36, 37]
+[+] Jednoznačna V2 NEXT kombinacija za sledeće kolo: [2, x, 9, y, 29, z, 37]
 ======================================================================
 """
 
